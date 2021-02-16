@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic&display=swap");
+@font-face {
+	font-family: "PF Hellenica Serif Pro";
+	src: url(../fonts/PFHellenicaSerifPro-Light.woff2) format("woff2"),
+		url(../fonts/PFHellenicaSerifPro-Light.woff) format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "True Gothic Cyr";
+	src: url(../fonts/TrueGothicCyr.woff2) format("woff2"), url(../fonts/TrueGothicCyr.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+.header {
+	height: 150px;
+	background: url("../img/Vector\ \(6\).png") 56.3% 13% no-repeat, url("../img/Vector\ \(6\).png") 44% 13% no-repeat,
+		url("../img/OJJO.png") 50% 2% no-repeat, url("../img/bgc.png") no-repeat center;
+}
+body {
+	background-color: turquoise;
+}
+
+.hed {
+	display: inline-block;
+}
+.link {
+	display: inline;
+	color: seashell;
+}
+.link:visited {
+	color: springgreen;
+}
+
+.link:hover {
+	color: red;
+}
+
+.link:active {
+	color: royalblue;
+}
+.link:focus {
+	outline: 1px dotted red;
+	color: red;
+	text-decoration: line-through;
+}
+
+.szapka {
+}
+
+.szapka-1 {
+	display: inline-block;
+	width: 50%;
+}
+.szapka-2 {
+	width: 50%;
+	display: inline-block;
+}
+.centr {
+}
+.niz {
+}
+.title {
+	font-size: 30px;
+	font-family: "PF Hellenica Serif Pro";
+	text-align: center;
+	font-weight: 600;
+	color: red;
+	text-shadow: -5px -5px 5px black;
+}
+.block {
+	font-size: 30px;
+	font-weight: 600;
+}
+.parent {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.links {
+	color: saddlebrown;
+
+	visibility: hidden;
+}
+.parent:hover + .links {
+	color: sandybrown;
+	visibility: visible;
+	background-color: seagreen;
+}
+.limp {
+	color: seagreen;
+}
+.limp:hover {
+	color: yellow;
+}
+.block:hover + .limp {
+	color: sandybrown;
+	visibility: visible;
+	background-color: seagreen;
+}
+
+.link-1:hover {
+	color: snow;
+}
+.link-1:active {
+	color: red;
+}
+.link-2 {
+	color: red;
+}
+.link-2:visited {
+	color: white;
+}
+
+.link-3:focus {
+	outline: 5px solid red;
+	color: red;
+	text-decoration: line-through;
+}
+.sp {
+	font-size: 35px;
+	
+	text-transform: uppercase;
+}
+.open {
+	font-family: "PF Hellenica Serif Pro";
+	font-size: 25px;
+	text-transform: uppercase;
+	color: red;
+	display: inline-block;
+	margin: 20px 0 20px 0;
+}
+.text {
+	font-size: 25px;
+	text-transform: capitalize;
+	padding: 15px;
+	background-color: seagreen;
+	display: none;
+}
+.text:target {
+	display: block;
+}
+.close {
+	font-family: "PF Hellenica Serif Pro";
+	font-size: 25px;
+	text-transform: uppercase;
+	color: wheat;
+}
+p {
+	font-size: 20px;
+	margin: 15px 0 15px 0;
+}
+
+.texp {
+	background-color: coral;
+}
+.texp:hover {
+	background-color: thistle;
+}
+.texp:active {
+	background-color: black;
+}
+.texp:focus {
+	background-color: white;
+}
+.texp:target {
+	display: block;
+}
+a {
+	font-size: 25px;
+}
+.title-2 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: "PF Hellenica Serif Pro";
+	text-align: center;
+	color: blue;
+	text-shadow: 5px 5px 5px black;
+}
+.text-3 p {
+	background-color: chartreuse;
+}
+
+.text-3 :first-of-type {
+	color: blue;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.text-3 *:first-child {
+	color: red;
+}
+.text-4 :first-child {
+	color: green;
+}
+.mext p:nth-child(3) {
+	color: red;
+	background-color: seashell;
+}
+.belford {
+	align-items: center;
+}
+.param::after {
+	margin: 25px 0 25px 43.5%;
+	content: "";
+	display: block;
+	background-color: black;
+	height: 10px;
+	max-width: 15%;
+	min-width: 50px;
+	border: 1px solid;
+	border-radius: 20px;
+}
+.param::before {
+	content: "";
+	height: 15px;
+	background-color: green;
+	display: block;
+	max-width: 15%;
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 25px 0 25px 43.5%;
+}
+.line::first-line {
+	font-size: 35px;
+	color: red;
+}
+.line-2::first-letter {
+	font-size: 35px;
+	color: red;
+	font-weight: 600;
+}

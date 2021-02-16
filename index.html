@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson_8</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="szapka">
+			<ul class="hed">
+				<li><a href="" class="link">Контрагентам</a></li>
+				<li><a href="" class="link">Дизайнерам</a></li>
+				<li><a href="" class="link">Вакансии</a></li>
+				<li><a href="" class="link">Поиск</a></li>
+				<li><a href="" class="link">Вход/Регистрация</a></li>
+				
+			</ul>
+		</div>
+		<div class="centr">
+
+		</div>
+		<div class="niz">
+
+		</div>
+
+	</header>
+	<main class="main">
+		<h2 class="title">состояние-hover</h2>
+		<p>это состояние наведения на обьетк наведено мы навели на обьект мышкой</p>
+		<div><span class="parent">Я спан </span><a href="" class="links"> Я ссылка</a></div>
+		<div><span class="block">Я спан</span><a href="" class="limp"> я ссылка</a></div>
+		
+		<h2 class="title">состояние-active</h2>
+		<p>состояние нажатия на ссылку /на ссылку нажали/зажата кнопка</p>
+		<a href="" class="link-1"> Я ссылка</a>
+		<h2 class="title">состояние-visited</h2>
+		<div class="visited">
+			<p>работает только со ссылками</p>
+			<a href="https://www.youtube.com/watch?v=N8Pp_LfK-DQ" class="link-2"> Я ссылка</a>
+			<a href="https" class="link-2"> Я ссылка</a>
+			<a href="https://www.google.pl/" class="link-2"> Я ссылка</a>
+			<a href="gvsdgdg" class="link-2"> Я ссылка</a>
+			<p><span class="sp">visited</span>-отмечается ссылка которая была посещена</p>
+			<p>Замечание: Из-за причин приватности,
+				браузеры строго ограничивают стили, которые вы
+				можете применить к элементу, используя этот псевдо-класс:
+				только color, background-color, border-color,
+				border-bottom-color, border-left-color, border-right-color,
+				border-top-color, outline-color, column-rule-color,
+				fill и stroke. Заметьте также, что альфа-канал будет
+				игнорироваться: будет использоваться альфа-канал,
+				используемый для непосещённых ссылок вместо него
+				(но если прозрачность - 0, то в этот случае
+				игнорируется весь цвет, и один из используемых
+				стилей для непосещённых ссылок).</p>
+			<p>
+				свойства работают только в том случае если уже были применены
+			</p>
+			<h2 class="title">состояние focus</h2>
+			<p>работает только с "поля ввода ссылки"</p>
+			<p>нажми на меня и держи</p>
+			<a href="" class="link-3"> Я ссылка</a>
+			<a href="" class="link-3"> Я ссылка</a>
+			<a href="" class="link-3"> Я ссылка</a>
+			<a href="" class="link-3"> Я ссылка</a>
+		</div>
+		<h2 class="title">состояние-target</h2>
+		<p><span class="sp">target</span>-
+			Срабатывает когда элемент является объектом
+			на который ссылаются</p>
+		<a href="#text" id="open" class="open">я ссылка Я открываю</a>
+		<div id="text" class="text">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus minus, quae hic tenetur aspernatur
+			laudantium corporis nobis molestiae odit dolore! Corporis vitae tempora ipsum suscipit explicabo sed ducimus
+			rem sapiente?
+			<a href="#open" class="close">я ссылка я закрываю</a>
+		</div>
+
+		<p class="texp">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cumque, eaque nesciunt necessitatibus
+			nostrum sit sapiente assumenda officiis! Ab ex illum, quos nulla sapiente impedit delectus libero ipsum
+			possimus modi?
+		</p>
+		<p class="texp">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cumque, eaque nesciunt necessitatibus
+			nostrum sit sapiente assumenda officiis! Ab ex illum, quos nulla sapiente impedit delectus libero ipsum
+			possimus modi?
+		</p>
+		<p class="texp">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cumque, eaque nesciunt necessitatibus
+			nostrum sit sapiente assumenda officiis! Ab ex illum, quos nulla sapiente impedit delectus libero ipsum
+			possimus modi?
+		</p>
+		<p class="texp">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cumque, eaque nesciunt necessitatibus
+			nostrum sit sapiente assumenda officiis! Ab ex illum, quos nulla sapiente impedit delectus libero ipsum
+			possimus modi?
+		</p>
+		<p>для картинки все также работает и опасити не забываем</p>
+		<h2 class="title-2">псевдо-классы положения в коде</h2>
+
+		<div class="text-3">
+			<span class="sp">я спан-*:first-child-влияю на первый элемент</span>
+			<p>
+				/я параграф-first-of-type-влияю на первый блочный элемент / Lorem ipsum dolor sit amet, consectetur
+				adipisicing elit. Consequuntur exercitationem illum dolor voluptates
+				aliquid quasi, fugit ibus perferendis necessitatibus qui
+
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem illum dolor voluptates
+				aliquid quasi, fugit incidunt cum rem nulla asperiores quisquam voluptatibus perferendis necessitatibus qui
+				molestias deserunt placeat suscipit.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem illum dolor voluptates
+				aliquid quasi, fugit incidunt cum rem nulla asperiores quisquam voluptatibus perferendis necessitatibus qui
+				molestias deserunt placeat suscipit.
+			</p>
+		</div>
+		<h2 class="title">пример номер 2</h2>
+		
+
+			<div class="text-4">
+				<p>
+					/я :first-child влияю на первый блочный элемент если передо мной нет спама/ Lorem ipsum dolor sit amet,
+					consectetur adipisicing elit. Consequuntur exercitationem illum dolor voluptates
+					aliquid quasi, fugit ibus perferendis necessitatibus qui
+	
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem illum dolor voluptates
+					aliquid quasi, fugit incidunt cum rem nulla asperiores quisquam voluptatibus perferendis necessitatibus qui
+					molestias deserunt placeat suscipit.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem illum dolor voluptates
+					aliquid quasi, fugit incidunt cum rem nulla asperiores quisquam voluptatibus perferendis necessitatibus qui
+					molestias deserunt placeat suscipit.
+				</p>
+			</div>
+			<h2 class="title">пример 3</h2>
+			<h2 class="title">nth</h2>
+			<div class="mext">
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem illum dolor
+					voluptates
+					aliquid quasi, fugit ibus perferendis necessitatibus qui
+
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem illum dolor
+					voluptates
+					aliquid quasi, fugit incidunt cum rem nulla asperiores quisquam voluptatibus perferendis necessitatibus
+					qui
+					molestias deserunt placeat suscipit.
+				</p>
+				<p>
+					Я :nth-child(3) влияю на выборочный элемент элемент-3 Lorem ipsum dolor sit amet, consectetur adipisicing
+					elit. Consequuntur exercitationem illum dolor
+					voluptates
+					aliquid quasi, fugit incidunt cum rem nulla asperiores quisquam voluptatibus perferendis necessitatibus
+					qui
+					molestias deserunt placeat suscipit.
+				</p>
+			</div>
+			<h2 class="title-2">
+				псевдо классы before и after
+			</h2>
+			<div class="belford">
+				<p class="param">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cumque eos doloribus distinctio,
+					aliquam officiis veniam, est alias quasi quo, commodi magnam harum. In voluptatem, porro adipisci unde
+					qui aspernatur?
+				</p>
+				<h2 class="title-2">::FIRST-LINE , ::FIRST-LETTER</h2>
+				<div>
+					<p class="line">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum saepe similique atque in pariatur.
+						Provident distinctio fugit ea ipsa facere minus eveniet et. Placeat vitae nesciunt excepturi?
+						Similique, officia accusantium!
+					</p>
+					<div class="line-2">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iure explicabo, ullam quibusdam nam
+						voluptatem natus beatae corporis molestias assumenda consequatur, totam consectetur ipsa! Provident
+						voluptate repudiandae eveniet ducimus unde.
+					</div>
+				</div>
+			</div>
+	</main>
+</body>
+
+</html>
